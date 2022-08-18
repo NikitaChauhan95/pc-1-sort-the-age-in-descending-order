@@ -15,7 +15,7 @@ public class SortingAgeTest {
     }
     @Test
     public void getDescendingArraySuccess(){
-        assertArrayEquals(new int[]{33,32,31,28,26,25,24,23} ,sortingAge.getSortedAge(new int[]{23,32,24,26,33,25,31,28}) );
+       assertArrayEquals(new int[]{33,32,31,28,26,25,24,23} ,sortingAge.getSortedAge(new int[]{23,32,24,26,33,25,31,28}));
 
         assertArrayEquals(new int[]{35,34,31,30,26,22,21,20}, sortingAge.getSortedAge(new int[]{21,35,22,30,31,34,26,20}));
     }
